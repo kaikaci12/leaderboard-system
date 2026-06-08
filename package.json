@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "@prisma/config": "^7.8.0",
+    "@types/express": "^5.0.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "prisma": "^7.8.0",
+    "redis": "^6.0.0",
+    "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "start": " node dist/main.js",
+    "build": "tsc",
+    "dev": "tsx watch ./src/main.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.22.4"
+  }
+}
